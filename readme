@@ -1,0 +1,29 @@
+<p>Sou estudante de Tecnologia da Informação no Instituto Educacional Raphael di
+                        Santo, onde tenho direcionado meus estudos para o desenvolvimento web e para a resolução prática
+                        de problemas. Ao longo dos meus estudos venho melhorando minha capacidade de criar interfaces
+                        funcionais, simples e bem organizadas.
+                        Minha experiência como auxiliar em uma gráfica reforçou minha organização e responsabilidade,
+                        qualidades essas, essenciais para lidar com projetos estruturados e manter um fluxo de trabalho
+                        consistente. Além disso, minha participação no escotismo por três anos contribuiu para
+                        desenvolver liderança, disciplina e colaboração em grupo.
+                        Sou proativo, aprendo rápido e tenho facilidade para trabalhar em equipe. Busco oportunidades
+                        que me permitam evoluir como desenvolvedor web, aplicar o que venho aprendendo em projetos reais
+                        e contribuir para soluções eficientes, claras e voltadas à boa experiência do usuário.
+                    </p>
+
+                    /* ----------------------- Cabeçalho ----------------------- */
+
+
+
+#blur-background {
+    width: 100%;
+    height: 100dvh;
+    backdrop-filter: blur(5px);
+    position: fixed;
+    z-index: 900;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s ease-out;
+
+    pointer-events: none;
+}
