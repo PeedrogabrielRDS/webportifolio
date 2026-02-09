@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/Favicon.webp" type="image/x-icon">
+    <title>Portifólio</title>
+
+    <!------------------- Links Css ------------------->
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/global.css">
+
+    <!------------------- Links de Fontes ------------------->
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+    </style>
+
+</head>
+
+<body class="nunito">
+
+    <canvas id="canvas"></canvas>
+
+    <div id="container">
+
+        <!-- Cabeçalho -->
+
+        <header id="header">
+
+            <!-- Redirecionamentos -->
+
+            <nav id="menu-desktop">
+                <a href="#header" id="logo-header">Pedro Gabriel</a>
+
+                <ul id="menu-desktop-items">
+                    <li><a href="#header">Início</a></li>
+                    <li><a href="#about-me">Sobre</a></li>
+                    <li><a href="#about-me">Objetivos</a></li>
+                    <li><a href="#habilities">Habilidades</a></li>
+                    <li><a href="./arquives/PedroGabriel_CV.pdf" download="PedroGabriel_CV.pdf">CV</a></li>
+                </ul>
+            </nav>
+
+            <button id="menu-mobile-open-close"  class="menu-mobile-img"><img src="./img/hamburger.webp" alt="menu-mobile"></button>
+
+                <div id="blur-background"></div>
+
+            <nav id="all-menu-mobile" class="poppins">
+                <div id="menu-mobile">
+                    <ul id="menu-mobile-items">
+                        <li><a href="#header" id="home-direction">Início</a></li>
+                        <li><a href="#about-me" id="about-me-direction">Sobre mim</a></li>
+                        <li><a href="#about-me" id="objectives-direction">Objetivos</a></li>
+                        <li><a href="#habilities" id="habilities-direction">Habilidades</a></li>
+                        <li><a href="./arquives/CV_Pedro Gabriel.pdf" download="PedroGabriel_CV.pdf">Currículo</a></li>
+
+                    </ul>
+                </div>
+            </nav>
+            <div id="fix"></div>
+
+            <!-- Banner -->
+
+            <section id="hero">
+                <div id="hero-content">
+                    <h1>Pedro Gabriel</h1>
+                    <h2>Aprendiz da Tecnologia</h2>
+                    <div id="social-media-icons">
+                        <a href="https://github.com/PeedrogabrielRDS" target="_blank" rel="external"
+                            class="icons-style"><img src="./img/RedesSociais-Icones/github.webp" alt="Icone Github"></a>
+                        <a href="https://wa.me/5519991924157?text=Olá%20Pedro,%20vi%20seu%20portfólio%20e%20gostaria%20de%20conversar"
+                            target="_blank" rel="external" class="icons-style"><img
+                                src="./img/RedesSociais-Icones/whatsapp.webp" alt="Icone whatsapp"></a>
+                        <a href="https://www.instagram.com/pedrogabrieelm/" target="_blank" rel="external"
+                            class="icons-style"><img src="./img/RedesSociais-Icones/instagram.webp"
+                                alt="Icone Instagram"></a>
+                        <!-- <a href="" target="_blank" rel="external" class="icons-style"><img
+                                src="./img/RedesSociais-Icones/linkedin.png" alt="Icone Linkedin"></a> -->
+                    </div>
+                </div>
+            </section>
+
+        </header>
+
+        <!-- Conteúdo -->
+
+        <div id="container-content">
+
+            <!-- Introdução -->
+
+            <section id="about-me" class="container-content-items poppins">
+                <div class="introduction-text">
+
+                    <h2>Bem vindo ao meu site portifólio!</h2>
+
+                    <p>Me chamo Pedro e tenho interesse em desenvolvimento web e programação. Possuo conhecimentos
+                        básicos de HTML, CSS, Python e JavaScript. Hoje busco aprender ainda mais sobre desenvolvimento
+                        web!
+                    </p>
+
+                </div>
+            </section>
+
+            <!-- Objetivos -->
+                <section class="container-content-items poppins">
+                    <div class="introduction-text objectives" id="objectives">
+                        <h2>Meus Objetivos</h2>
+                        <p>Procuro uma oportunidade de estágio em Tecnologia da Informação onde possa colocar em prática conhecimentos básicos de lógica de programação,
+                             atuação em front-end (HTML5, CSS3, JavaScript) e back-end (Node.js, MySQL, MongoDB), colaborando em projetos práticos, gerando valor para a empresa
+                              e desenvolvendo minhas competências técnicas e profissionais.</p>
+                    </div>
+                </section>
+
+
+            <!-- Portifólio -->
+
+            <h1 id="portfolio-title">Portifólio</h1>
+
+            <!-- Portifólio - Habilidades -->
+            <div id="portfolio-content">
+                <section id="habilities" class="container-content-items poppins">
+                    <h2>Habilidades Técnicas</h2>
+
+                    <div id="technical-habilities-cards-container">
+                        <div class="technical-habilities-cards">
+                            <img src="./img/HabilidadesTecnicas-Icones/html.webp" alt="Html Ícone">
+                            <h2>HTML</h2>
+                        </div>
+                        <div class="technical-habilities-cards">
+                            <img src="./img/HabilidadesTecnicas-Icones/css.webp" alt="Css Ícone">
+                            <h2>CSS</h2>
+                        </div>
+                        <div class="technical-habilities-cards">
+                            <img src="./img/HabilidadesTecnicas-Icones/js.webp" alt="JavaScript Ícone">
+                            <h2>JavaScript</h2>
+                        </div>
+                        <div class="technical-habilities-cards">
+                            <img src="./img/HabilidadesTecnicas-Icones/node-js.webp" alt="Node.js Ícone">
+                            <h2>Node.js</h2>
+                        </div>
+                        <div class="technical-habilities-cards">
+                            <img src="./img/HabilidadesTecnicas-Icones/mysql.webp" alt="MySQL Ícone">
+                            <h2>MySQL</h2>
+                        </div>
+                        <div class="technical-habilities-cards">
+                            <img src="./img/HabilidadesTecnicas-Icones/mongoDB.webp" alt="MongoDB Ícone">
+                            <h2>MongoDB</h2>
+                        </div>
+                    </div>
+
+                    <h2>Habilidades Comportamentais</h2>
+
+                    <div id="conduct-habilities-cards-container">
+                        <div class="conduct-habilities-cards">Trabalho em equipe</div>
+                        <div class="conduct-habilities-cards">Comunicação</div>
+                        <div class="conduct-habilities-cards">Proatividade</div>
+                        <div class="conduct-habilities-cards">Resolução de problemas</div>
+                        <div class="conduct-habilities-cards">Pensamento lógico</div>
+                        <div class="conduct-habilities-cards">Aprendizagem rápida</div>
+                        <div class="conduct-habilities-cards">Organização</div>
+                        <div class="conduct-habilities-cards">Adaptabilidade</div>
+                        <div class="conduct-habilities-cards">Comprometimento</div>
+                        <div class="conduct-habilities-cards">Foco</div>
+                        <div class="conduct-habilities-cards">Disciplina</div>
+                        <div class="conduct-habilities-cards">Colaboração</div>
+                        <div class="conduct-habilities-cards">Dedicação</div>
+                    </div>
+                </section>
+                
+                <!-- Portifólio - Projetos -->
+                <!-- <section id="projects" class="container-content-items poppins">
+                    <h1>Principais Projetos</h1>
+                    <div id="projects-cards-container">
+
+                        <div class="projects-cards">
+                            <a target="_blank" rel="external" href="">
+                                <img src="./img/Projetos-Icones/calculadora.png" alt="Calculadora Ícone">
+                                <h2>Calculadora</h2>
+                            </a>
+                        </div>
+
+                        <div class="projects-cards">
+                            <a target="_blank" rel="external" href="">
+                                <img src="./img/Projetos-Icones/pedra-papel-tesoura (1).png"
+                                    alt="Pedra-Papel-Tesoura Ícone">
+                                <h2>Pedra, Papel,<br> Tesoura</h2>
+                            </a>
+                        </div>
+                    </div>
+                </section> -->
+            </div>
+        </div>
+
+        <!-- Rodapé -->
+
+        <footer>
+            <div id="contact" class="footer-items">
+                <h2>Me contate</h2>
+                <p>Discord: <a href="https://discord.com/users/_pedro_n17_" target="_blank"
+                        rel="external">_pedro_n17_</a></p>
+                <p>Telefone: <a
+                        href="https://wa.me/5519991924157?text=Olá%20Pedro,%20vi%20seu%20portfólio%20e%20gostaria%20de%20conversar"
+                        target="_blank" rel="external">+55 19 99192-4157</a></p>
+                <p>email profissional: <a
+                        href="mailto:pedrogabriel.webdev@gmail.com?subject=Contato&body=Olá%20Pedro,%20vi%20seu%20portfólio%20e%20gostaria%20de%20conversar"
+                        target="_blank" rel="external">pedrogabriel.webdev@gmail.com</a></p>
+            </div>
+            <div id="web-map" class="footer-items">
+                <h2>Mapa do Site</h2>
+                <a href="#header">Início</a>
+                <a href="#about-me">Sobre</a>
+                <a href="#habilities">Habilidades</a>
+                <a href="#projects">Projetos</a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="./js/backGround.js"></script>
+    <script src="./js/script.js"></script>
+
+</body>
+
+
+</html>
